@@ -99,9 +99,16 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    /* Use flex-direction to stack the navbar, sidebar, and body */
-.card{
-      flex-direction: column;
-    }
+@media screen and (max-width: 992px) {
+.container .card {
+    width: 40%;
 }
+    
+}
+
+@media screen and (max-width: 768px) {
+.container  .card {
+        width: 100%;
+    }
+        
+    }
